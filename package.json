@@ -2,7 +2,7 @@
   "name": "beat_empire_studios",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Aman-1313.github.io/beat_empire_studios",
+  "homepage": "http://Aman-1313.github.io/beat_empire_studios/public",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
