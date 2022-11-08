@@ -2,7 +2,7 @@
 import { Grid } from '@mui/material';
 import { Link, } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LItem from './elements/LItem';
+import LItem from './LItem';
 import './App.css';
 import { Box } from '@mui/system';
 

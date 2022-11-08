@@ -1,4 +1,4 @@
-import '/Users/amanpreetsingh/beat_empire_studios/src/App.css';
+import './App.css';
 function LItem({name, imageUrl, para, link}){
 	return (
     	<div className="author">
