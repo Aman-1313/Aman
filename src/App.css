@@ -23,6 +23,7 @@
   font-size: 25px;
   padding: 20px;
   text-align: center;
+  align-items: center;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -81,17 +82,18 @@
   padding: 1%;
 }
 .rocket {
+  height: 40vmin;
+  pointer-events: none;
   position: absolute;
-  bottom: -100%;
   animation: fly infinite 10s ease-in-out;
 }
 
 @keyframes fly {
-  0% {
+  from {
       bottom: -100%;
   }
 
-  100% {
+  to {
       bottom: 100%;
   }
 }
