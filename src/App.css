@@ -79,6 +79,7 @@
 .rocket {
   height: 40vmin;
   pointer-events: none;
+  left: 40%;
   position: absolute;
   animation: fly infinite 10s ease-in-out;
 }
