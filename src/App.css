@@ -83,7 +83,6 @@
 .rocket {
   position: absolute;
   bottom: -100%;
-  left: 33%;
   animation: fly infinite 10s ease-in-out;
 }
 
