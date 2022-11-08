@@ -55,14 +55,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.SubjIntro{
+  color: #a3b2b6;
+}
+.Author{
+  height: 26px;
+  width: 20px;
+}
 .App-link {
   color: #d4eaf0;
 }
 
 .Quote{
-  font-style: italic;
-  color: cornflowerblue;
+  font-family: 'Anton', sans-serif;
+  color: #2b2c2d;
 }
 
 .CourseList{
@@ -74,14 +80,14 @@
 }
 .rocket {
   position: absolute;
-  bottom: -600px;
+  bottom: -100%;
   left: 35%;
-  animation: fly 10s .5s ease-in;
+  animation: fly infinite 10s ease-in-out;
 }
 
 @keyframes fly {
   0% {
-      bottom: -600px;
+      bottom: -100%;
   }
 
   100% {
