@@ -4,7 +4,6 @@ import { Link, } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LItem from './LItem';
 import './App.css';
-import { Box } from '@mui/system';
 
 function Learning() {
   return (
