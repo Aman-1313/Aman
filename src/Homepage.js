@@ -11,7 +11,7 @@ function Homepage() {
     return (
       <div className="App">
         <div className ="NavBar">
-        <Link to='/'className="Name" >Aman P Singh</Link>
+        <Link to='/'className="Name" >Aman P Singh<br/></Link>
         <Link to='/'className="Link">Homepage</Link>
         <a className='Link' href='https://aman-1313.github.io/'>Resume</a>
         <Link to='/Learning'className="Link">Learning</Link>
