@@ -29,8 +29,8 @@ function Homepage() {
                 If you find it interesting, you can also use that as a study resource.     
             </p> 
             <CardActions>
-                <Button size="small" endIcon={<PhoneIcon />}>Contact</Button>
-                <Button size="small" endIcon={<GitHubIcon />}>GitHub </Button>
+                <a className='Link' href='https://linktr.ee/singhap2'><Button size="small" endIcon={<PhoneIcon />}>Contact</Button></a>
+                <a className='Link' href='https://github.com/Aman-1313'><Button size="small" endIcon={<GitHubIcon />}>GitHub </Button></a>
             </CardActions>
         </div>
     </div>
